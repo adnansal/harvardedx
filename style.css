@@ -1,8 +1,31 @@
 body {
-    background-image: url("./pictures/green.jpg");
+    background-color: black;
     background-repeat: no-repeat;
     color: aqua;
+    
 }
-li {
-   color: aqua;
+div {
+    text-align: center;
+    margin: 0% 25% 0% 25%;
+    color:  rgb(66, 231, 34);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border:5px dotted pink;
+}
+
+li{
+    color: white;
+}
+
+#unord{
+    border: 2px solid blue;
+    margin-right: 90%;
+    background-color: rebeccapurple;
+    
+}
+
+#ord{
+    border: 2px solid seagreen;
+    margin-right: 90%;
+    background-color:rgb(77, 4, 77);
 }
