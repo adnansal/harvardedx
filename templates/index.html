@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+First Page
+{% endblock %}
+
+{% block body %}
+        <div>
+            {% if new_year %}
+                <h1>Yes! Happy New Year</h1>
+            {% else %}
+                <h1> No </h1>
+            {% endif %}
+            <a href="{{url_for('loop')}}">See Loop</a>
+        </div>
+{% endblock %}
